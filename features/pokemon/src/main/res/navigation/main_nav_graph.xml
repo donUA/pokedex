@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/fragmentPokemonList">
+
+    <fragment
+        android:id="@+id/fragmentPokemonList"
+        android:name="com.muthiani.main.ui.landing.PokeMonListFragment"
+        android:label="Pokemon list fragment"
+        tools:layout="@layout/fragment_pokemon_list">
+        <action
+            android:id="@+id/toFragmentInfoFragment"
+            app:destination="@id/fragmentPokemonInfo"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentPokemonInfo"
+        android:name="com.muthiani.main.ui.pokemonInfo.PokemonInfoFragment"
+        android:label="Pokemon Info Fragment"
+        tools:layout="@layout/fragment_pokemon_info">
+
+        <argument
+            android:name="pokemonName"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
