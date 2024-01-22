@@ -9,11 +9,11 @@ import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.muthiani.api.domain.local.models.PokemonInfo
+import com.muthiani.main.R
+import com.muthiani.main.databinding.FragmentPokemonInfoBinding
 
 
 import com.muthiani.main.extensions.viewBinding
-import com.muthiani.pokedex.R
-import com.muthiani.pokedex.databinding.FragmentPokemonInfoBinding
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 

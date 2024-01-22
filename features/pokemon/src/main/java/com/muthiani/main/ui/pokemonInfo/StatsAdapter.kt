@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.muthiani.api.domain.local.models.StatContent
-import com.muthiani.pokedex.databinding.ItemStatsBinding
+import com.muthiani.main.databinding.ItemStatsBinding
 
 class StatsAdapter(
     private var total: Int? = null

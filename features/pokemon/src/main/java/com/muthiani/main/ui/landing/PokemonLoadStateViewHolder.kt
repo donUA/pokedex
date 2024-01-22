@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.paging.LoadState
 import androidx.recyclerview.widget.RecyclerView
-import com.muthiani.pokedex.R
-import com.muthiani.pokedex.databinding.ReposLoadStateFooterViewItemBinding
+import com.muthiani.main.R
+import com.muthiani.main.databinding.ReposLoadStateFooterViewItemBinding
 
 class PokemonLoadStateViewHolder(
     private val binding: ReposLoadStateFooterViewItemBinding,

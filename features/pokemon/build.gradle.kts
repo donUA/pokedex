@@ -1,6 +1,7 @@
 import extensions.DATA_API
 import extensions.addCommonDependencies
 import extensions.addNavigationDependencies
+import extensions.addTestDependencies
 
 plugins {
     id("com.android.library")
@@ -44,6 +45,7 @@ dependencies {
 
     addCommonDependencies()
     addNavigationDependencies()
+    addTestDependencies()
     implementation(NetworkLib.Paging3)
     implementation(DependencyInjectionLib.koin)
     DATA_API

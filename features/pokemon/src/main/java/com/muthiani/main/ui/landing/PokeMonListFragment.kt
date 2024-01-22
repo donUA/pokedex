@@ -10,10 +10,10 @@ import androidx.navigation.fragment.findNavController
 import androidx.paging.LoadState
 import androidx.paging.PagingData
 import com.muthiani.api.domain.local.entities.Pokemon
+import com.muthiani.main.R
+import com.muthiani.main.databinding.FragmentPokemonListBinding
 import com.muthiani.main.extensions.viewBinding
 import com.muthiani.main.extensions.observeEvent
-import com.muthiani.pokedex.R
-import com.muthiani.pokedex.databinding.FragmentPokemonListBinding
 import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

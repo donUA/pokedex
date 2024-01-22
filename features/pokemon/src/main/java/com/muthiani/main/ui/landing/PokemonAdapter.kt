@@ -6,7 +6,7 @@ import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.muthiani.api.domain.local.entities.Pokemon
-import com.muthiani.pokedex.databinding.ItemPokemonViewBinding
+import com.muthiani.main.databinding.ItemPokemonViewBinding
 
 class PokemonAdapter(
     val openInfo:  ((name: String) -> Unit)

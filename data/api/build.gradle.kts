@@ -1,5 +1,6 @@
 import extensions.addNetworkDependencies
 import extensions.addPersistenceDependencies
+import extensions.addTestDependencies
 
 plugins {
     id("com.android.library")
@@ -53,6 +54,8 @@ dependencies {
     addNetworkDependencies()
 
     addPersistenceDependencies()
+
+    addTestDependencies()
 
     implementation(NetworkLib.Paging3)
     implementation(DependencyInjectionLib.koin)
