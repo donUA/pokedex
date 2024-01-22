@@ -8,7 +8,7 @@ The app uses MVVM architecture consumes [Pokemon API](https://pokeapi.co/api/v2)
 
 The code base is organized with feature based modules.
 
-Dependency injection is handled by [koin]("https://insert-koin.io/") library.
+Dependency injection is handled by [koin](https://insert-koin.io/) library.
 
 ## TODOs
 
@@ -18,6 +18,7 @@ With more time, Here's the actionable items
  - Implement tests
  - Carry out further clean ups
  - Integrate code analyzer tools
+ - Design revamp and color updates
 
 ## License
 
