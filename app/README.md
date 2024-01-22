@@ -15,6 +15,7 @@ With more time, Here's the actionable items
  - Implement a search
  - Implement tests
  - Carry out further clean ups
+ - Integrate code analyzer tools
 
 ## License
 
