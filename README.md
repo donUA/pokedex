@@ -10,6 +10,12 @@ The code base is organized with feature based modules.
 
 Dependency injection is handled by [koin](https://insert-koin.io/) library.
 
+
+## Screenshots
+
+[Landing Page](screenshots/screen_landing_page.jpeg)
+[Info Screen](screenshots/screenshot_info.jpeg)
+
 ## TODOs
 
 With more time, Here's the actionable items
