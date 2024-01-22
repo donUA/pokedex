@@ -18,6 +18,7 @@ With more time, Here's the actionable items
  - Implement tests
  - Carry out further clean ups
  - Integrate code analyzer tools
+ - Design revamp and color updates
 
 ## License
 
