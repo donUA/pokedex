@@ -25,8 +25,8 @@ object ApiModule {
         single {
             Retrofit.Builder()
                 /* Due to a conflict with koin dependency, project BuildConfig is not being generated.
-                Ideally, the base url should be fetched from BuildConfig.BASE_URL as declared on gradle files
-                With more time, I'd look into this conflict and resove
+                Ideally, the base url should be fetched from "BuildConfig.BASE_URL" as declared on gradle files
+                With more time, I'd look into this conflict and resolve
                  */
                 .baseUrl(ConstantUtils.BASE_URL)
                 .client(get())
