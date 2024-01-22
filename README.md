@@ -4,7 +4,7 @@
 
 Pokedex is a simple application that presents modern architecture in android app development. 
 
-The app uses MVVM architecture consumes [Pokemon API](https://pokeapi.co/api/v2) and displays a list of the first 100 pokemon using the [paging3]()https://developer.android.com/topic/libraries/architecture/paging/v3-overview. It also allows the user to see a more detailed info of a pokemon once selected.
+The app uses MVVM architecture consumes [Pokemon API](https://pokeapi.co/api/v2) and displays a list of the first 100 pokemon using the [paging3](https://developer.android.com/topic/libraries/architecture/paging/v3-overview). It also allows the user to see a more detailed info of a pokemon once selected.
 
 The code base is modularized and dependency injection is handled using [koin]("https://insert-koin.io/")
 
